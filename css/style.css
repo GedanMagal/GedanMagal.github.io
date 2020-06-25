@@ -1,0 +1,61 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: rgb(15, 15, 15);
+    /* font-family: 'Abel', sans-serif; */
+    /* font-family: 'Dosis', sans-serif; */
+    font-family: 'Rajdhani', sans-serif;
+}
+
+ul li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.card-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-container img {
+    width: 15%;
+    border-radius: 50%;
+}
+
+.nav {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2em;
+}
+
+.nav img {
+    width: 25em;
+    margin-left: 5%;
+}
+
+.box {
+    width: 50%;
+    display: block;
+    margin: 0 auto;
+}
+
+.icon {
+    display: inline-block;
+    padding: 1%;
+}
+
+.center-align {
+    display: flex;
+    justify-content: center;
+}
+
+.icon img {
+    width: 2.4em;
+    cursor: pointer;
+}
